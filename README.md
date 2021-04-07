@@ -1,6 +1,9 @@
-# Captcha-Recognizer
+# Captcha-Recognizer   
+
 A light `CNN` + `Attention` based Captcha Recognizer  
+
 ---  
+
 ## Get Started  
 ### Install Dependencies
 - Dependencies  
