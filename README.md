@@ -2,6 +2,9 @@
 
 A light `CNN` + `Attention` based Captcha Recognizer  
 
+![](https://www.dropbox.com/s/zdsiyr82o161qdt/captcha_sample.jpg?raw=1)  
+-> 24920
+
 ---  
 
 ## Get Started  
