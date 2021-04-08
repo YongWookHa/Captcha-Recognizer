@@ -183,9 +183,9 @@ class CaptchaRecog(object):
 
 if __name__ == "__main__":
     cfg = {
-        'bs': 4,
+        'bs': 16,
         'lr': 0.002,
-        'epochs' : 50,
+        'epochs' : 30,
         'save_path': 'result',
         'image_path' : 'data/train_data',
         'label_path' : 'data/train_data.txt',
@@ -195,4 +195,4 @@ if __name__ == "__main__":
     
     from pathlib import Path
     for x in Path('data/test_data').glob('*.jpg'):
-        print(x, ':', cr.pred(str(x)))
+        print(x, ':', cr.pred(str(x), gif=False))
